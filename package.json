@@ -1,6 +1,6 @@
 {
- "name": "gboty",
- "version": "1.0.0",
+  "name": "gboty",
+  "version": "1.0.0",
   "description": "",
   "main": "node index.js",
   "scripts": {
@@ -21,17 +21,16 @@
   },
   "homepage": "https://github.com/shadow0o0/gboty#readme",
   "dependencies": {
-   "dateformat": "^3.0.3",
-   "discord.js": "^11.3.2",
+    "dateformat": "^3.0.3",
+    "discord.js": "^11.3.2",
     "express": "^4.16.3",
     "got": "^8.3.0",
     "http": "^0.0.0",
-   "jimp": "^0.2.28",
+    "jimp": "^0.2.28",
     "ms": "^2.1.1",
-    "mysql": "^2.15.0",
+    "better-sqlite3": "*",
     "request": "^2.85.0",
-   "text2png": "*",
-    "pretty-ms": "*",
-    "canvas-prebuilt": "*"
- }
+    "text2png": "*",
+    "pretty-ms": "*"
+  }
 }
