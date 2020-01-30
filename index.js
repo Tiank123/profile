@@ -144,7 +144,7 @@ let about = sql.prepare(`SELECT * FROM about WHERE UserID = '${message.author.id
   }
 
 
-  let prefix = botconfig.prefix;
+  let prefix = botconfig.prefix;op
   let messageArray = message.content.split(" ");
   //if (message.content.startsWith("فهد")) return message.reply({files: ["https://cdn.discordapp.com/attachments/417087715444523010/430350204168962050/image.png"]});
   //if (message.content.toString()== ".") return message.channel.send("y");
@@ -157,4 +157,4 @@ let about = sql.prepare(`SELECT * FROM about WHERE UserID = '${message.author.id
 
 });
 
-bot.login(process.env.BOT_TOKEN);
+bot.login(process.env.BOT_TOKEN);NjcyMzg1ODg1NDMzNDk1NTYz.XjKuUg.A99iFqS0VWr7uSLCpjSlgmmAzJc
